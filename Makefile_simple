@@ -1,0 +1,4 @@
+get_mac_addr:
+	g++ -g get_mac_addr.cpp -o get_mac_addr 
+clean:
+	rm -rf get_mac_addr
